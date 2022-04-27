@@ -2,3 +2,6 @@
 #node-setup project
 node-setup/node_modules/*
 node-setup/dist
+
+RocketSeat/node_modules/*
+RocketSeat/dist
