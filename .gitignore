@@ -5,3 +5,4 @@ node-setup/dist
 
 RocketSeat/node_modules/*
 RocketSeat/dist
+RocketSeat/src/database/database.sqlite
