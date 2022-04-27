@@ -10,8 +10,4 @@ const app = express();
 app.use(express.json());
 app.use(router);
 
-// app.get("/status", (request, response) => {
-//   return response.send("Running");
-// });
-
 app.listen(3000, () => console.log("Server is running"));
