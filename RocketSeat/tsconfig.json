@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "es6"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "rootDir": "./src",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "types": [
+      "jest",
+      "@types/jest"
+    ],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@repository/*": [
+        "./src/repository/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@views/*": [
+        "./src/views/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
