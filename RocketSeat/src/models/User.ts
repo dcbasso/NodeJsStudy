@@ -2,6 +2,8 @@ import {Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn} from 
 import { v4 as uuid } from "uuid";
 
 
+import { Exclude } from "class-transformer";
+
 @Entity("users")
 class User {
 
@@ -23,6 +25,7 @@ class User {
     @UpdateDateColumn()
     updated_at: Date;
 
+    @Exc
     @Column()
     password: string;
 
